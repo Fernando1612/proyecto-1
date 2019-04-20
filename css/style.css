@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+body
+{
+	padding-top: 90px;
+	height: 850px;
+	background: 
+		linear-gradient(#97BCEB, transparent 90%),
+		linear-gradient(0deg,#fff,transparent),
+		url("../img/02.png") no-repeat center;
+	background-size: cover;
+    font-family: 'Karla', sans-serif;
+}
+@media screen and (max-width:1800px) and (min-width:990px)
+{
+#mainMenu 
+{
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+
+#mainMenu li 
+{
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	/*border:1px solid #000;*/
+}
+
+#mainMenu a 
+{
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color: transparent;
+	color:#009;
+}
+
+#mainMenu a:hover 
+{
+	color:black;
+	font-family: sans-serif;
+}
+
+header h1
+{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cinzel', serif;
+
+}
+
+main 
+{
+    color: #9FE2EB;
+}
+
+header 
+{
+	background: 		
+        linear-gradient(0deg,#97BCEB,transparent),
+		linear-gradient(#fff, transparent 90%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * 
+{
+    display: inline;
+}
+
+header li 
+{
+    margin: 20px;
+}
+
+header li a 
+{
+    color: black;
+    text-decoration: none;
+}
+#cat
+{
+	float: left;
+	width: 475px;
+	height: 475px;
+	margin-right: 25px;
+}
+
+footer a 
+{
+	text-decoration: none;
+	background: #97BCEB;
+	color: black;
+	display:block;
+	padding:3px;
+
+}
+
+footer li 
+{
+	display:block;
+	width:210px;
+	float:left;
+	margin-left:80px;
+	height: 75px;
+}
+
+footer 
+{
+    position: relative;
+    margin-top: -50px;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    text-align: center;
+    color: black;
+}
+}
+@media screen and (max-width: 990px) and (min-width: 600px)
+{
+	#mainMenu 
+{
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+
+#mainMenu li 
+{
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	/*border:1px solid #000;*/
+}
+
+#mainMenu a 
+{
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color: transparent;
+	color:#009;
+}
+
+#mainMenu a:hover 
+{
+	color:black;
+	font-family: sans-serif;
+}
+header h1
+{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cinzel', serif;
+
+}
+
+main 
+{
+    color: #9FE2EB;
+}
+
+header 
+{
+	background: 		
+        linear-gradient(0deg,#97BCEB,transparent),
+		linear-gradient(#fff, transparent 90%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * 
+{
+    display: inline;
+}
+
+header li 
+{
+    margin: 20px;
+}
+
+header li a 
+{
+    color: black;
+    text-decoration: none;
+}
+div.conteiner
+{
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+#cat
+{
+	width: 100%;
+	height: auto;
+}
+header 
+{
+   height: auto;
+   align-items: center;
+}
+nav 
+{
+    height: auto;
+}
+nav ul 
+{
+    height: auto;
+}
+ 
+nav li 
+{
+    width: 50%;
+}
+#h
+{
+    font-size: 90px;
+}
+
+footer a 
+{
+	text-decoration: none;
+	background: #97BCEB;
+	color: black;
+	display:block;
+	padding:3px;
+
+}
+
+footer li 
+{
+	display:block;
+	width:210px;
+	float:left;
+	margin-left:80px;
+	height: 75px;
+}
+
+footer 
+{
+    position: relative;
+    margin-top: -30px;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    text-align: center;
+    color: black;
+}
+}
+
+@media screen and (max-width: 400px)
+{
+
+    nav li 
+    {
+        float: none;
+        width: 100%;
+    }
+    #cat
+	{	
+	width: 100%;
+	height: auto;
+	}
+
+    #h
+    {
+    	font-size:30px;
+    }
+    #t1
+    {
+    	width: 100%;
+    	height: auto;
+    }
+    table, th,td {
+        width: 100%;
+        margin-bottom: 10px;
+        overflow-y: hidden;
+        border: 1px solid #ddd;
+
+}
+}
